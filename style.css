@@ -1,0 +1,122 @@
+/**{	margin-left: 0px;*/
+/*}*/
+
+body{
+	background-image: url("background image.png");
+	background-repeat: no-repeat,;
+    background-attachment: fixed;
+    background-position:relative;
+    background-size: cover;
+    height: 100%;
+    width:100%;
+    margin:0;
+    padding:0;
+    margin-left:0px;
+    
+
+}
+.navbar{
+	border-bottom: 5px ;
+	border-top:5px ;
+	background-color:white;
+}
+.navbar-text{
+	font-size: 25px;
+	font-family: candara;
+	color:hsl(230, 100%, 35%);
+	text-indent:200px;
+}
+#heading{
+	font-size: 35px;
+	font-family: candara;
+	color:hsl(230, 100%, 35%);
+	text-indent:210px;
+	/*line-height:3;*/
+	margin-top:75px;
+	display:inline;
+	float:left;
+	width:200px;
+
+}
+#light{
+	font-weight: lighter;
+}
+#head{
+	font-size: 50px;
+	color:hsl(230, 100%, 35%);
+	text-indent:210px;
+	text-shadow:2px 2px 3px blue;
+	margin-top: 0px;
+	width:800px;
+	margin-right: 0px;
+	font-family: 'Libre Baskerville', serif;
+
+	
+}
+#text {
+	color:hsl(230, 100%, 35%);
+	text-indent:
+	font-family:candara;
+	font-weight:600;
+	width:385px;
+	margin-left:350px;
+}
+/*.box{
+	text-indent: 256px;
+    position:relative;
+    transition: .5s ease;
+    top:20px;
+    right:256px;
+    width:400px;
+    margin-right: 350px;
+
+}*/
+.email-box{
+  height: 40px;
+  justify-content:center;
+  display: flex; /**its better to use inline-flex*/
+  width:400px;
+  margin-right: 0px;
+  margin-left: 325px;
+
+}
+.tbox,.btn{
+  border:none;
+  outline: none;
+  border-radius: 8px 8px 8px 8px;
+}
+.tbox{
+  width:260px;
+  transition: 0.6s;
+  padding:0 10px;
+}
+
+.btn{
+  background:#ffa42f;
+  color: white;
+  padding: 0 10px;
+  text-transform: uppercase;
+  cursor: pointer;
+  font-family: candara;
+  font-weight: 600;
+}
+.content{
+	display:inline;
+	float:left;
+	margin:0px;
+	/*position:absolute;*/
+}
+.content1 {
+	width:255px;
+	height:300px;
+	margin:0px;
+	float:right;
+	margin-top:-330px;
+	margin-right:300px;
+}
+/*.content1 img{
+	width:255px;
+	height:300px;
+	float:left;
+	/*display:inline;*/
+}*/
